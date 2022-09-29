@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "d3": "^5.9.2",
+    "d3": "^7.6.1",
     "evergreen-ui": "^4.21.5",
     "jquery": "^3.4.1",
     "rc-slider": "^8.6.13",
