@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './assets/yinyang.png';
 import './css/App.css';
-import {Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {Link, HashRouter as Router, Route, Switch } from 'react-router-dom';
 import GeometryMenu from './menus/geometryMenu.jsx'
 import MusicMenu from './menus/musicMenu.jsx'
 import EssayMenu from './menus/essayMenu.jsx'
@@ -30,7 +30,7 @@ class App extends Component {
                     </header>
                     <TabNavigation>
                       {['Essays', 'Poetry', 'Geometry', 'Music'].map((tab, index) => (
-                        <Tab key={tab} is="a" id={tab} href={'/' + tab}>
+                        <Tab key={tab} is="a" id={tab} href={'#' + tab}>
                           {tab}
                         </Tab>
                       ))}
