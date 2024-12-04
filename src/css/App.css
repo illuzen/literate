@@ -1,0 +1,107 @@
+
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 200px;
+}
+
+.graph-container {
+}
+
+.App-header {
+  background-color: #0;
+  height: 250px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: black;
+}
+
+.App-intro {
+  font-size: large;
+  margin-top: 20px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+.essays {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding: 10%;
+}
+
+.haiku-3 {
+   -webkit-column-count: 3; /* Chrome, Safari, Opera */
+   -moz-column-count: 3; /* Firefox */
+   column-count: 3;
+}
+
+.haiku-5 {
+   -webkit-column-count: 5; /* Chrome, Safari, Opera */
+   -moz-column-count: 5; /* Firefox */
+   column-count: 5;
+}
+
+.node {
+    fill: #000000;
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+.flower {
+    fill: #ffffff;
+    stroke: #000000;
+    stroke-width: 1px;
+    fill-opacity: 0;
+}
+
+.slider-div {
+  padding-right: 5%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 70%;
+  float: right;
+}
+
+
+.full-slider-div {
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.link {
+    stroke: #00ff00;
+    stroke-width: 2px;
+}
+
+.range {
+    width: 640px;
+    margin: auto;
+}
+
+svg {
+    padding: 10px;
+}
+
+#slider-desc {
+    padding: 10px;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  font-family: sans-serif;
+}
